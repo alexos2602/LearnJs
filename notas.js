@@ -18,26 +18,45 @@
     */
 
 
-//tipos de datos
+/* //tipos de datos
 
     //primitivos
 
     //string texto
-    //number 
-    //Boolean verdadero o falso
-    //undefined
-    //null
 
     let hola = "hola \"todos\"";
 
-    //template Strings para concatenar amiguito
+    //template Strings para concatenar
 
     let nombPerso = "Jose"; 
     let num = 4;
-    let saludo = console.log(` Bienvenido, ${nombPerso}, ${num * 2} veces`);//backtick alt+96
+    let saludo = console.log(` Bienvenido, ${nombPerso}, ${num * 2} veces`);//backtick alt+96 */
 
-    
 
+    /* //number 
+
+    let birth = 1996;
+    let year = new Date().getFullYear();// guardando año actual
+    let age = year - birth; */
+
+
+    /* //Boolean verdadero o falso
+
+    if ('a' == 'b'){
+        console.log('son iguales')
+    }else{
+        console.log('no son iguales')
+    } */
+
+    //undefined cuando no se le asigna valor a una variable
+
+    //let noDefinido;
+
+    //null cuando no existe algun volor
+
+    //let title = document.getElementById('title');
+
+    //typeof devuelve una cadena que indica el tipo del operando sin evaluarlo.
     //Compuestos u objetos
 
     //Array
