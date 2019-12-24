@@ -17,6 +17,7 @@
     //var no es asi 
     */
 
+/* ------------------------------------------------------------------------ */
 
 /* //tipos de datos
 
@@ -64,3 +65,29 @@
     //Map
     //Set
     //function
+
+    /* ------------------------------------------------------------------------ */
+
+    //Operadores aritmeticos
+    // +, -, *, /, %
+
+    //Incremento y decremento
+    //++
+    //--
+
+    /* let numero = 5;
+    console.log(numero++);
+    console.log(numero); */
+
+    // +=, -=, *=, /= 
+
+    /* let numero = 10;
+    numero /= 5;
+    console.log(numero); */
+
+    //operadores de comparacion (devuelven un boolean)
+    /* let condicion = 5 < 10;
+
+    console.log('condicion'); */
+
+    
