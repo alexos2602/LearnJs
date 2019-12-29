@@ -86,8 +86,24 @@
     console.log(numero); */
 
     //operadores de comparacion (devuelven un boolean)
+    //>, <; >=; <=; ==; ===;para comparar valor y tipo de dato
+
     /* let condicion = 5 < 10;
 
     console.log('condicion'); */
 
-    
+/* ------------------------------------------------------------------------ */
+
+    //Propiedades y metodos
+    //propiesdades: caracteristicas 
+    //metodos: accion a ejecutar
+
+    /* let prof1 = 'Arsged';
+    let prof2 = 'Brsged';
+    let prof3 = 'arsged';
+    let prof4 = 'crsged';
+
+    console.log(prof3.toUpperCase().indexOf('A') == 0); */
+
+/* ------------------------------------------------------------------------ */
+
