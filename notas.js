@@ -107,3 +107,43 @@
 
 /* ------------------------------------------------------------------------ */
 
+    //Propiedades
+
+    /* let saludo = " hola quien vea esto ";
+
+    let longitud = saludo.length;
+
+    console.log(longitud);
+    console.log(saludo);//para quitar espacios inicio/fin
+
+    //Metodos, sin parametros
+
+    console.log(saludo.trim());//para quitar espacios inicio/fin
+    console.log(saludo.trim().toUpperCase());
+    console.log(saludo.trim().toLowerCase()); */
+
+    //Metodos con parametros
+
+    /* let saludo = "hola quien vea esto";
+
+    let longitud = saludo.length; */
+
+    //indexOf(string[i]) i es indice
+    /* console.log(saludo[2]);
+    console.log(saludo.indexOf('vea', 1)); */
+
+    //lastIndexOf(string[i]) i es indice
+    /* console.log(saludo[2]);
+    console.log(saludo.lastIndexOf('o')); */
+
+    //replace(oldString,newString)
+    /* let nuevoSaludo = saludo.replace('vea esto', 'esto es un nuevo saludo');
+    console.log(nuevoSaludo);
+    console.log(saludo); */
+
+    //split('separador', N) convierte string en array
+    /* let arrayFromSaludo = saludo.split(' ', 4);
+    console.log(arrayFromSaludo); */
+
+/* ------------------------------------------------------------------------ */
+    
