@@ -196,4 +196,36 @@
  */
 
     //Switch
+    let color = prompt(`Escoje un color: 
+    1. rojo
+    2. verde
+    3. azul
+    4. negro
+    5. amarillo`);
+
+    switch (color) {
+        case '1':
+            console.log('rojo');
+            break;
+        case '2':
+            console.log('verde');
+            break;
+        case '3':
+            console.log('azul');
+            break;
+        case '4':
+            console.log('negro');
+            break;
+        case '5':
+            console.log('amarillo');
+            break;
+    
+        default:
+            break;
+    }
+
+    //operador ternario: 
+    //forma abreviada de hacer un if
+    //condicion ? valorTrue : valorFalse
+
     
