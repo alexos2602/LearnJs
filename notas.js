@@ -196,7 +196,7 @@
  */
 
     //Switch
-    let color = prompt(`Escoje un color: 
+    /* let color = prompt(`Escoje un color: 
     1. rojo
     2. verde
     3. azul
@@ -222,10 +222,12 @@
     
         default:
             break;
-    }
+    } */
 
     //operador ternario: 
-    //forma abreviada de hacer un if
-    //condicion ? valorTrue : valorFalse
+    //forma abreviada de hacer un IF
+    //condicion ? valorTrue : valorFalse colocar simpre valor falso
 
-    
+    let nombre = prompt('Escribe tu nombre');
+
+    nombre.length > 5 ? console.log('tu nombre es largo') : console.log('tu nombre es corto');
