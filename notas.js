@@ -124,9 +124,9 @@
 
     //Metodos con parametros
 
-    /* let saludo = "hola quien vea esto";
+    //let saludo = "hola quien vea esto";
 
-    let longitud = saludo.length; */
+    /* let longitud = saludo.length; */
 
     //indexOf(string[i]) i es indice
     /* console.log(saludo[2]);
@@ -145,5 +145,25 @@
     /* let arrayFromSaludo = saludo.split(' ', 4);
     console.log(arrayFromSaludo); */
 
+    // substring(a,b), substr(a,b), slice(a,b)
+    /* let substring,substr,slice;
+
+    substring = saludo.substring(4, 7);
+    console.log(substring);
+
+    substr = saludo.substr(4, 8); //indice cantidad de caracteres
+    console.log(substr);
+    
+    slice = saludo.slice(4, 5);
+    console.log(slice); */
+
+    //Nuevos metodos ES6
+    //.startWtih(), endsWith(), includes() 
+
+    /* console.log(saludo.startsWith('h'));
+    console.log(saludo.endsWith('o'));
+    console.log(saludo.includes('vea')); */
+
 /* ------------------------------------------------------------------------ */
+    
     
