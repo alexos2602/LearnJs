@@ -86,7 +86,7 @@
     console.log(numero); */
 
     //operadores de comparacion (devuelven un boolean)
-    //>, <; >=; <=; ==; ===;para comparar valor y tipo de dato
+    //>, <; >=; <=; ==; !=; diferente de; ===;para comparar valor y tipo de dato &&; y and; ||; o O
 
     /* let condicion = 5 < 10;
 
@@ -166,4 +166,34 @@
 
 /* ------------------------------------------------------------------------ */
     
+    //Condicionales
+    //let edad = prompt('dime tu edad');// toma string pero js lo convierte 
+
+    /* if (edad < 12) {
+        console.log('eres niño');
+        if (edad < 2) {
+            console.log('eres un bebé');
+        }
+        } else if (edad >= 12 && edad < 18) {
+            console.log('eres adolescente');
+        } else if (edad >= 18 && edad < 60) {
+            console.log('eres adulto');
+    }
+    else {
+        console.log('eres anciano');
+    } */
+ 
+
+    // valores que no son boolean pero equivalen
+    //Truthy: Strings no vacios, Arrays[], {}, Numeros diferentes de 0
+    //Falsy: 0, string vacios, null, nan, undefined.
+
+    /* if (edad) {
+        console.log('Ingresaste un valor truthy');
+    } else {
+        console.log('Ingresaste un valor falsy');
+    }
+ */
+
+    //Switch
     
