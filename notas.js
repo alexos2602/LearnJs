@@ -228,6 +228,42 @@
     //forma abreviada de hacer un IF
     //condicion ? valorTrue : valorFalse colocar simpre valor falso
 
-    let nombre = prompt('Escribe tu nombre');
+    /* let nombre = prompt('Escribe tu nombre');
 
-    nombre.length > 5 ? console.log('tu nombre es largo') : console.log('tu nombre es corto');
+    nombre.length > 5 ? console.log('tu nombre es largo') : console.log('tu nombre es corto'); */
+
+/* ------------------------------------------------------------------------ */
+
+    //Ciclos
+    //for  variable; condicion; contador;
+    /* for (let i = 1; i <= 10; i++){
+        console.log(i);
+    } */
+    //let teachers = ['jose1', 'lose222', 'sose3333', 'tose44444', 'eose5555555'];
+    /* for (let i = 0; i < teachers.length; i++) {
+        if (teachers[i].toUpperCase().indexOf('T') == 0) {
+            console.log(teachers[i])
+        }
+        /* if (teachers[i].length <= 5) {
+            console.log(teachers[i])
+        } */
+        //console.log(teachers[i]);
+    //}
+
+    //break: salir del ciclo
+    // continue: saltarse iteracion del ciclo
+
+    /* for (let i = 0; i < teachers.length; i++) {
+        if (teachers[i].toUpperCase().indexOf('T') == 0) {
+            continue;// para que salte la condicion de arriva
+        }
+        console.log(teachers[i]);
+    } */
+
+    /* for (let i = 0; i < teachers.length; i++) {
+        if (teachers[i].toUpperCase().indexOf('T') == 0) {
+            break;// para salir del ciclo
+        }
+        console.log(teachers[i]);
+    }
+ */
