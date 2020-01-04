@@ -235,7 +235,7 @@
 /* ------------------------------------------------------------------------ */
 
     //Ciclos
-    //for  variable; condicion; contador;
+    //For  variable; condicion; contador;
     /* for (let i = 1; i <= 10; i++){
         console.log(i);
     } */
@@ -267,3 +267,21 @@
         console.log(teachers[i]);
     }
  */
+
+    //While
+
+    //let i = 100;
+    /* while (i > 0) {
+        console.log('debo atender la clase y no jugar')
+        i--;
+    } */
+    /* while (i--) {
+        console.log('debo atender la clase y no jugar')
+    } */
+
+    //do while
+    /* let password = 'ED';
+    let pass;
+    do {
+        pass = prompt('Introduce contraseña');
+    } while (pass != 'ED'); */
