@@ -285,3 +285,17 @@
     do {
         pass = prompt('Introduce contraseña');
     } while (pass != 'ED'); */
+
+    //For of (ES6)
+    /* let teachers = ['jose1', 'lose222', 'sose3333', 'tose44444', 'eose5555555'];
+
+    for(let profesor of teachers){
+        console.log(profesor);
+    } */
+
+    /* let nombre = 'Amarillo';
+
+    for(let valor of nombre){
+        console.log(valor);
+    } */
+
