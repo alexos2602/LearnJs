@@ -334,3 +334,17 @@
     console.log(sum);
     */
 
+    //IndexOf() devuelve el indice del elemento, si no existe devuelve -1
+    /* console.log(arr.indexOf(4)); */
+
+    //Agregar elementos a un Array con:
+    //.push(el1, el2, el3)  añade al final 
+    //.unshift(el1, el2, el3) añade al inicio
+
+    /* arr.push('push', 'segundo', 'tercero');
+    console.log(arr);
+    arr.unshift('unshift', 'segundo', 'tercero');
+    console.log(arr); */
+
+    arr.unshift('unshift', 'segundo', 'tercero');
+    console.log(arr);
