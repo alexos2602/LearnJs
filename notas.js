@@ -303,7 +303,7 @@
 
     //Array
 
-    let arr = [1, '2', 3, 4, 'true', 5, 6];
+    /* let arr = [1, '2', 3, 4, 'true', 5, 6]; */
              //0  1  2  3  4
 
     /* console.log(arr.length);
@@ -382,4 +382,20 @@
     let arr2 = arr.slice(2, 5);
     console.log(arr2); */
 
-    
+    /////////////////////////// ES6
+    /* function name(params) {
+        lo que hace
+    } */
+
+    //Arrow Function
+    // parametro => valorRetornado
+
+    //devolver elemento que pases atravez de la funcion
+    //.find(cb);
+    //.findIndex(); encuentra indice
+
+    /* let arr = [1, 2, 3, 4, 5];
+    let num = arr.find( elemento => elemento > 3);
+    let numIndex = arr.findIndex( elemento => elemento > 3);
+    console.log(num);
+    console.log(numIndex); */
