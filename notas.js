@@ -346,5 +346,40 @@
     arr.unshift('unshift', 'segundo', 'tercero');
     console.log(arr); */
 
-    arr.unshift('unshift', 'segundo', 'tercero');
+    /* arr.unshift('unshift', 'segundo', 'tercero');
+    console.log(arr); */
+
+    //Eliminar un solo elemento (sin parametros)
+    //Estos metodos devuelven el elemento eliminado
+    //.pop() al final
+    //.shift() al principio
+
+    /* let eleEliminado = arr.pop();
     console.log(arr);
+    console.log(eleEliminado); */
+
+    /* let eleEliminado = arr.shift();
+    console.log(arr);
+    console.log(eleEliminado); */
+
+    //.join('separador')  convertir Array a String
+    //'separador' es por defecto una coma
+    /* console.log(arr.join()); */
+
+    //splice(A indice a hacer la operacion, B numero de elementos a tomar, Items a añadir si fuera el caso)
+    //añade o quita elementos
+
+    /* arr.splice(2, 2, 'Eliminado1', 'Eliminando2');
+    console.log(arr); */
+
+    /* arr.splice(2, 0, 'Añadiendo1', 'Añadiendo1');
+    console.log(arr); */
+
+    //slice() crea un nuevo Array
+
+    /* console.log(arr);
+
+    let arr2 = arr.slice(2, 5);
+    console.log(arr2); */
+
+    
