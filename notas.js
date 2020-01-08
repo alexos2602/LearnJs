@@ -446,4 +446,26 @@
     console.log(yo.esPadre);
     console.log(yo.hijos); */
 
+    //Operadores de objetos
+    //delete -> elimina un propiedad
+    //in -> devuelve true si existe la propiedad en el objeto
 
+    let yo = {
+        nombre: 'José',
+        edad: 23,
+        esPadre: false,
+        hijos: ['ninguno1', 'ninguno2'],
+        saludo() {
+            return 'hola soy el return'
+        }
+    };
+
+    /* delete yo.nombre; */
+    Object.prototype.algo = 27;
+    /* console.log(yo.nombre); */
+    /* console.log('nombre' in yo); */
+    console.log('algo' in yo);
+    console.log(yo.hasOwnProperty('algo'));
+    console.log(yo.hasOwnProperty('nombre'));
+
+    
