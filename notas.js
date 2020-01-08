@@ -399,3 +399,51 @@
     let numIndex = arr.findIndex( elemento => elemento > 3);
     console.log(num);
     console.log(numIndex); */
+
+/* ------------------------------------------------------------------------ */
+
+    // Iteradores 'permite recorer un objeto iterable'
+    // Son objetos que contienen un metodo next()
+    // Este metodo devuelve un objeto con dos propiedades
+    // value, done
+
+    //.keys() .values() .entries() devuelven un iterador??
+
+    /* let arr = [1, 2, 3, 4, 5];
+
+    let iterador = arr.keys();
+    console.log(iterador.next());
+    console.log('estoy atravezado');
+    console.log(iterador.next());
+    console.log(iterador.next());
+    console.log(iterador.next());
+    console.log(iterador.next());
+    console.log(iterador.next()); */
+
+/* ------------------------------------------------------------------------ */
+
+    //Objetos 
+    // No es más que una variable especial que puede contener más variables en su interior.
+
+    /* let Objeto = {
+        propiedad: valor,
+        propiedad: valor2,
+        propiedad: vlaor3
+    } */
+
+    /* let yo = {
+        nombre: 'José',
+        edad: 23,
+        esPadre: false,
+        hijos: ['ninguno1', 'ninguno2']
+    }
+
+    yo.edad = 24;
+
+    console.log(yo);
+    console.log(yo.nombre);
+    console.log(yo.edad);
+    console.log(yo.esPadre);
+    console.log(yo.hijos); */
+
+
