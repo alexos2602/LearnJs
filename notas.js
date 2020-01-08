@@ -468,4 +468,21 @@
     console.log(yo.hasOwnProperty('algo'));
     console.log(yo.hasOwnProperty('nombre'));
 
-    
+    // ES6
+    //copiar un objeto
+    /* let yo2 = Object.assign({},yo);
+    console.log(yo2); */
+
+    //Asignar variables existentes a propiedades
+    let a = 'hola', b = 'mundo';
+    let objeto = {
+        a,
+        b
+    }
+    console.log(objeto);
+
+    //Asignar Expresiones en propiedades
+    let objeto2 = {
+        [a + b]: 'hola mundo'
+    }
+    console.log(objeto2);
