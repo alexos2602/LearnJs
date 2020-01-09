@@ -450,7 +450,7 @@
     //delete -> elimina un propiedad
     //in -> devuelve true si existe la propiedad en el objeto
 
-    let yo = {
+    /* let yo = {
         nombre: 'José',
         edad: 23,
         esPadre: false,
@@ -458,15 +458,15 @@
         saludo() {
             return 'hola soy el return'
         }
-    };
+    }; */
 
     /* delete yo.nombre; */
-    Object.prototype.algo = 27;
+    /* Object.prototype.algo = 27; */
     /* console.log(yo.nombre); */
     /* console.log('nombre' in yo); */
-    console.log('algo' in yo);
+    /* console.log('algo' in yo);
     console.log(yo.hasOwnProperty('algo'));
-    console.log(yo.hasOwnProperty('nombre'));
+    console.log(yo.hasOwnProperty('nombre')); */
 
     // ES6
     //copiar un objeto
@@ -474,15 +474,64 @@
     console.log(yo2); */
 
     //Asignar variables existentes a propiedades
-    let a = 'hola', b = 'mundo';
+    /* let a = 'hola', b = 'mundo';
     let objeto = {
         a,
         b
     }
-    console.log(objeto);
+    console.log(objeto); */
 
-    //Asignar Expresiones en propiedades
-    let objeto2 = {
+    //Expresiones en propiedades
+    /* let objeto2 = {
         [a + b]: 'hola mundo'
     }
-    console.log(objeto2);
+    console.log(objeto2); */
+
+    /* ------------------------------------------------------------------------ */
+
+    //metodos para recorrer Array
+    // .map() 
+    // .filter()
+    // .reduce() agarrar todo los elementos del array y devolver un valor
+
+    let alumnos = [
+        {
+            nombre: 'juanito',
+            calificacion: 15
+        },
+        {
+            nombre: 'menganito',
+            calificacion: 10
+        },
+        {
+            nombre: 'panganito',
+            calificacion: 14
+        },
+        {
+            nombre: 'culpa',
+            calificacion: 20
+        },
+        {
+            nombre: 'culpa2',
+            calificacion: 9
+        },
+    ];
+
+    /* console.log(alumnos[0]); */
+    
+    //map(cb)
+    //Transforma cada elemento del Array segun el callback
+    //devuelve un nuevo Array
+
+    /* let alumnosNombres = [];
+
+    for (let i = 0; i < alumnos.length; i++) {
+        alumnosNombres.push(alumnos[i].nombre);      
+    }
+
+    console.log(alumnosNombres); */
+
+    /* let alumnosNombres = alumnos.map( alumnos => alumnos.nombre );
+    console.log(alumnosNombres); */
+
+    
