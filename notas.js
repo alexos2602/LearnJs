@@ -541,12 +541,25 @@
     console.log(aaNombres); */
 
     //.reduce(cb(prev, current, <<i, arr, initial opcionales>>))
-    /* let numeros = [2 , 4, 6, 8, 10, 12, 14];
-    let suma = numeros.reduce( (a,b) => a + b );
+    /* let numeros = [2 , 4, 6, 8, 10, 12, 14]; */
+    /* let suma = numeros.reduce( (a,b) => a + b );
     console.log(suma); */
 
     /* let max = numeros.reduce( (a,b) => a > b ? a : b); */ // si el valor Prev (a) es mayor que Current (b), retorna Prev si no 
     //quiere decir que Current es mayor y lo retornara 
     /* console.log(max); */
 
-    
+    /* let promedio = numeros.reduce( (prev,_current,i,arr) => {
+        _current += prev; // current = current + prev; //
+        return i == arr.length -1 ? _current / arr.length : _current; //si el indice es igual a la longitud de array menos 1 porque los array
+        //empiezan en 0, que divida current entre la longitud SI NO que retorne current para la siguiente suma ???no entiendo con se sale 
+        // del ciclo y entra de nuevo????
+
+        //if (i == arr.length -1) {
+        //    return b / arr.length
+        //} else {
+        //    return b
+        //} 
+    }); */
+
+    /* console.log(promedio); */
