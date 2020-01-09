@@ -501,11 +501,11 @@
         },
         {
             nombre: 'menganito',
-            calificacion: 10
+            calificacion: 5
         },
         {
             nombre: 'panganito',
-            calificacion: 14
+            calificacion: 10
         },
         {
             nombre: 'culpa',
@@ -528,10 +528,17 @@
     for (let i = 0; i < alumnos.length; i++) {
         alumnosNombres.push(alumnos[i].nombre);      
     }
-
     console.log(alumnosNombres); */
 
     /* let alumnosNombres = alumnos.map( alumnos => alumnos.nombre );
     console.log(alumnosNombres); */
 
+    //.filter(cb)
+
+    /* let alumnosAprobados = alumnos.filter( alumnos => alumnos.calificacion >= 10 );
+    console.log(alumnosAprobados);
+    let aaNombres = alumnosAprobados.map( alumnos => alumnos.nombre );
+    console.log(aaNombres); */
+
+    //.reduce(cb)
     
