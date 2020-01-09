@@ -494,7 +494,7 @@
     // .filter()
     // .reduce() agarrar todo los elementos del array y devolver un valor
 
-    let alumnos = [
+    /* let alumnos = [
         {
             nombre: 'juanito',
             calificacion: 15
@@ -516,7 +516,7 @@
             calificacion: 9
         },
     ];
-
+ */
     /* console.log(alumnos[0]); */
     
     //map(cb)
@@ -540,5 +540,13 @@
     let aaNombres = alumnosAprobados.map( alumnos => alumnos.nombre );
     console.log(aaNombres); */
 
-    //.reduce(cb)
+    //.reduce(cb(prev, current, <<i, arr, initial opcionales>>))
+    /* let numeros = [2 , 4, 6, 8, 10, 12, 14];
+    let suma = numeros.reduce( (a,b) => a + b );
+    console.log(suma); */
+
+    /* let max = numeros.reduce( (a,b) => a > b ? a : b); */ // si el valor Prev (a) es mayor que Current (b), retorna Prev si no 
+    //quiere decir que Current es mayor y lo retornara 
+    /* console.log(max); */
+
     
