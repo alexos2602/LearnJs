@@ -494,7 +494,7 @@
     // .filter()
     // .reduce() agarrar todo los elementos del array y devolver un valor
 
-    /* let alumnos = [
+    let alumnos = [
         {
             nombre: 'juanito',
             calificacion: 15
@@ -509,14 +509,14 @@
         },
         {
             nombre: 'culpa',
-            calificacion: 20
+            calificacion: 19
         },
         {
             nombre: 'culpa2',
             calificacion: 9
         },
     ];
- */
+
     /* console.log(alumnos[0]); */
     
     //map(cb)
@@ -563,3 +563,20 @@
     }); */
 
     /* console.log(promedio); */
+
+    //Mejor Alumno ni se como funciona esto
+    let bestAlumno = alumnos.reduce( (a,b) => {
+        if (a.calificacion > b.calificacion) {
+            return {
+                nombre: a.nombre,
+                calificacion: a.calificacion 
+            }
+        } else {
+            return {
+                nombre: b.nombre,
+                calificacion: b.calificacion
+            }
+        }
+    });
+    console.log(bestAlumno);
+
