@@ -494,7 +494,7 @@
     // .filter()
     // .reduce() agarrar todo los elementos del array y devolver un valor
 
-    let alumnos = [
+    /* let alumnos = [
         {
             nombre: 'juanito',
             calificacion: 15
@@ -515,7 +515,7 @@
             nombre: 'culpa2',
             calificacion: 9
         },
-    ];
+    ]; */
 
     /* console.log(alumnos[0]); */
     
@@ -565,7 +565,7 @@
     /* console.log(promedio); */
 
     //Mejor Alumno ni se como funciona esto
-    let bestAlumno = alumnos.reduce( (a,b) => {
+    /* let bestAlumno = alumnos.reduce( (a,b) => {
         if (a.calificacion > b.calificacion) {
             return {
                 nombre: a.nombre,
@@ -578,5 +578,46 @@
             }
         }
     });
-    console.log(bestAlumno);
+    console.log(bestAlumno); */
 
+/* ------------------------------------------------------------------------ */
+
+    //Funciones
+    //bloques de codigos reutilizables
+
+    /* function name(params, parametro2) {
+        //codigo        
+    } */
+
+    /* function sumar(a, b) {//parametros a,b lo que recibe y retorna
+        if (a > b) {
+            return a + b;
+            // despues del return no se ejecuta mas naa
+        }
+        return b;
+    }
+
+    let lasuma = sumar(1,5);//argumentos 1,5 valores reales
+    console.log(lasuma); */
+
+    /* let objetoso = {
+        nombre : 'holaObjeto',
+        sumar(a,b) {    //cuando una funcion esta dentro de un objeto se llama metodo.
+            return a + b;
+        }
+    }
+
+    let suma = objetoso.sumar(1,5);
+    console.log(suma);  */
+
+    //Funcion dentro de otra funcion
+    function restar(a) {
+        return function(b) {
+            return a - b;            
+        }
+    }
+
+    let rResta = restar(5)(3); // A le pertenece 5 y 3 a B la segunda funcion no es lo mismo que (5,3) que trabajaria con 1 funcion
+    console.log(rResta);
+
+    
