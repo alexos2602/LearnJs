@@ -640,4 +640,25 @@
 
     console.log(laMultiplicacion); */
 
+    //Funciones constructora: soporta objetos y hace una simulación muy personal de otros conceptos como clases o herencia.
+    //pero ya  se usan las clases
+    /* let Pai = function (name,currency) {
+        this.name = name;
+        this.currency = currency;        
+    }
+
+    let rPai = new Pai('Venezula','Bolivar');
+    console.log(rPai); */
+
+    //llamar a una funcion indirectamente
+    // apply() y call()
+    /* function sumata(a,v,s) { //esto devuelve la suma de estos parametros
+        return a + v + s;        
+    }
+
+    let numbers = [5, 6, 7];
+    //let rsumata = sumata.apply(undefined,numbers);
+    let rsumata = sumata.call(undefined,5,6,7);
+    console.log(rsumata); */
+
     
