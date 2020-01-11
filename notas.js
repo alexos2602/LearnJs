@@ -17,7 +17,7 @@
     //var no es asi 
     */
 
-/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
 
 /* //tipos de datos
 
@@ -66,7 +66,7 @@
     //Set
     //function
 
-    /* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
 
     //Operadores aritmeticos
     // +, -, *, /, %
@@ -92,7 +92,7 @@
 
     console.log('condicion'); */
 
-/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
 
     //Propiedades y metodos
     //propiesdades: caracteristicas 
@@ -105,7 +105,7 @@
 
     console.log(prof3.toUpperCase().indexOf('A') == 0); */
 
-/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
 
     //Propiedades
 
@@ -164,8 +164,8 @@
     console.log(saludo.endsWith('o'));
     console.log(saludo.includes('vea')); */
 
-/* ------------------------------------------------------------------------ */
-    
+/* ------------------------------------------------------------------------------------------------ */
+
     //Condicionales
     //let edad = prompt('dime tu edad');// toma string pero js lo convierte 
 
@@ -232,7 +232,7 @@
 
     nombre.length > 5 ? console.log('tu nombre es largo') : console.log('tu nombre es corto'); */
 
-/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
 
     //Ciclos
     //For  variable; condicion; contador;
@@ -299,7 +299,7 @@
         console.log(valor);
     } */
 
-/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
 
     //Array
 
@@ -400,7 +400,7 @@
     console.log(num);
     console.log(numIndex); */
 
-/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
 
     // Iteradores 'permite recorer un objeto iterable'
     // Son objetos que contienen un metodo next()
@@ -420,7 +420,7 @@
     console.log(iterador.next());
     console.log(iterador.next()); */
 
-/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
 
     //Objetos 
     // No es más que una variable especial que puede contener más variables en su interior.
@@ -487,7 +487,7 @@
     }
     console.log(objeto2); */
 
-    /* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
 
     //metodos para recorrer Array
     // .map() 
@@ -580,7 +580,7 @@
     });
     console.log(bestAlumno); */
 
-/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------ */
 
     //Funciones
     //bloques de codigos reutilizables
@@ -611,13 +611,33 @@
     console.log(suma);  */
 
     //Funcion dentro de otra funcion
-    function restar(a) {
+    /* function restar(a) {
         return function(b) {
             return a - b;            
         }
     }
 
     let rResta = restar(5)(3); // A le pertenece 5 y 3 a B la segunda funcion no es lo mismo que (5,3) que trabajaria con 1 funcion
-    console.log(rResta);
+    console.log(rResta); */
+
+    //Practica-------------------------------------------------------------------------
+
+    /* function sumar(x) {
+        return function(y) {
+            return x + y             
+        }
+    }
+
+    let rSuma = sumar(5)(4);
+    console.log(rSuma); */
+
+    ////////---------------------------------------------------------------------------
+
+    //Funciones auto invocadas
+    /* let laMultiplicacion = (function(a,b) {//encerradas entre parentesis para que se conviertan en expresion
+        return a * b;
+    })(5,2);
+
+    console.log(laMultiplicacion); */
 
     
