@@ -661,4 +661,59 @@
     let rsumata = sumata.call(undefined,5,6,7);
     console.log(rsumata); */
 
+/* ------------------------------------------------------------------------------------------------ */
+
+    //Tipos de funciones
+
+    //funciones por definicion
+    /* function name(params) {
+        //codigo
+    } */
+
+    //funciones por expreseion
+    /* let variable = function(params) {
+        //codigo
+    }
+
+    let c = console.log;
+    c('hola asdfasdf');*/
     
+    //funciones nombradas
+
+    //funciones anonimas
+
+    //callback = una funcion que es ejecutada por otra luego de un proceso
+    /* elemento.addEventListener('click', function () {
+        //hace algo        
+    }) */
+
+    //Funciones de flecha (arrow funtions) ES6
+    //Son funciones anónimas
+    //(param, param2, param3) => valorDeRetorno
+
+    /* let suma = (a,b) => a + b;
+
+    let suma = function (a,b) {
+        return a + b;        
+    } */
+
+    //let c = console.log;
+    /* let suma = (a,b) => a + b;
+    let laSuma = suma(1,5);
+    c(laSuma); */
+
+    /* let elevaCuadro = (a) => {
+        if(typeof a == 'number'){
+            return a * a
+        }
+    }; */
+
+    /* let elevaCuadro = a => (typeof a == 'number') ? a * a : undefined;
+    let rCuadrado = elevaCuadro(8);
+    c(rCuadrado); */
+
+    //devolver un objeto
+    /* let miObj = (a,b) => ({a,b});
+    let rMiObj = miObj('primerObj', 'segundoObj');
+    c(rMiObj); */
+
