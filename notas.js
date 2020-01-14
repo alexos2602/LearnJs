@@ -717,3 +717,44 @@
     let rMiObj = miObj('primerObj', 'segundoObj');
     c(rMiObj); */
 
+    //Parametros y argumentos
+    /* let sumar = (a,b) => a + b;
+    let rSuma = sumar(2,9);
+    console.log(rSuma); */
+
+    /* function sumar(a,b) {
+        console.log(arguments);//objeto que contiene los elementos enviados   
+    }
+    sumar(2,3); */
+
+    //Si hay mas parametros que argumentos, los argumentos faltantes son undefined
+    //Si hay mas argumentos que parametros, no devuelve error
+
+    /* function sumaTodo() {
+        let sum = 0;
+        for (let i = 0; i < arguments.length; i++) {
+            sum += arguments[i];
+        }
+        return sum;
+    }
+    console.log(sumaTodo(1,2,3,4,5,6,7,8,9,10)); */
+
+    /* function sumaTodo() {
+        return [...arguments].reduce((a,b) => a + b);
+    }
+    console.log(sumaTodo(1,2,3,4,5,6,7,8,9,10)); */
+
+    //array como parametro
+    /* function sumar(a,b) {
+        return a + b;
+    }
+    let numeros = [2,3];
+    console.log(sumar.apply(undefined,numeros)); */
+
+    /* function sumar(a,b) {
+        return a + b;
+    }
+    let numeros = [2,3];
+    console.log(sumar(...numeros)); */
+
+    
