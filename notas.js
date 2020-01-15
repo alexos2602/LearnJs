@@ -757,4 +757,98 @@
     let numeros = [2,3];
     console.log(sumar(...numeros)); */
 
+    //Parametros por defecto ES6
+    /* function sumar(a, b = 2) {
+        return a + b;
+    }
+    console.log(sumar(1)); */
+
+    //Parametros rest
+    /* function sumaTodo(...elementos) {
+        return elementos.reduce((a,b) => a + b);        
+    }
+    console.log(sumaTodo(1,2,3,)); */
+
+/* ------------------------------------------------------------------------------------------------ */
+
+    //Scope es el ambito o contexto donde
+    //se ejecuta una funcion y exiten sus variables::::
+    //El scope puede definirse como el alcance que una variable tendrá en tu código. 
+    //En otras palabras, el scope decide a qué variables tienes acceso en cada parte del código. 
+    //Existen dos tipos de scope, el scope global y el scope local.
+    
+    //Contexto Global
+    /* var hola;
+    function holaMundo() {
+        hola = 'hola mundo impreso'
+    }
+    holaMundo();//ejecutando 
+    console.log(hola);
+
+    function holaOtraVez() {
+        hola = 'Hola otra vez impreso';
+    }
+    holaOtraVez();
+    console.log(hola); */
+
+    //Contexto Local
+    /* function holaMundo() {
+        var hola;//////////////////////
+        hola = 'hola mundo impreso'
+    }
+    holaMundo();//ejecutando 
+    console.log(hola); */
+
+    /* function sumar(a) {
+        return function (b) {
+            return a + b; // esta funcion puede acceder al scope fuera de ella
+        }
+    }
+
+    let rSuma = sumar(5)(7);
+    console.log(rSuma); */
+
+    //Closures :Un closure o clausura es la combinación de una función y el ámbito léxico en el que se declaró dicha función.
+    // Es decir los closures o clausuras son funciones que manejan variables independientes.
+
+    /* function saludar() {
+        let saludo = 'hola';
+        return function saludarInterno() {
+            console.log(saludo);
+        }
+    }
+    saludar()(); */
+
+    //----------------------------------------------------
+
+    /* function saludar() {
+        let saludo = 'hola';
+        return function saludarInterno(amigo) {
+            console.log(`${saludo} ${amigo} `);
+        }
+    }
+    let miSaludo = saludar();
+    miSaludo('Jose');
+    miSaludo('Otro'); */
+
+    /* function afuera() {
+        let numero = 1;
+        return function() {
+            numero++;
+            console.log(numero);
+        }
+    }
+    //afuera()(); no suma   
+    //afuera()(); no suma
+    let aumenta = afuera();
+    aumenta();//2
+    aumenta();//3
+    aumenta();//4
+    aumenta();//5
+    afuera()();//2 */
+
+/* ------------------------------------------------------------------------------------------------ */
+
+    
+    
     
