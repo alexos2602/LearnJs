@@ -867,4 +867,38 @@
     //Lexical This
     //????????????????
 
-    
+/* ------------------------------------------------------------------------------------------------ */
+
+    //Clase Plantilla apartir de la cual se crean objetos
+    //Instancia Cada Objeto creado apartir de una clase
+    //Constructor funcion que se ejecuta automaticamente al instanciar una clase
+    //Propiedad son valores
+    //Metodos son funciones
+
+    /* const jon = {
+        nombre : 'jon',
+        apellido : 'Mircha',
+        cursos : ['Node.js', 'React.js'],
+        pais : 'Mexico'
+    };
+
+    const pedro = {
+        nombre : 'pedro',
+        apellido : 'camejo',
+        cursos: ['Html, css'],
+        pais : ['Colombia']
+    } */
+
+    //En vez de esto > esto
+
+    /* var Profesor = function (nombre, apellido, pais) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.pais = pais;
+    };
+
+    var jon = new Profesor ('john', 'mircha', 'mexico');
+    var alexys = new Profesor ('alexys', 'camejo', 'colombia');
+
+    console.log(jon);
+    console.log(alexys); */
