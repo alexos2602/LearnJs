@@ -849,6 +849,22 @@
 
 /* ------------------------------------------------------------------------------------------------ */
 
-    
-    
+    //This 
+    /* let myObj = {
+        nombre: 'José',
+        saludar(){
+            console.log(`Hola ${this.nombre}`)
+        }
+    }
+    myObj.saludar(); */
+
+    /* 'use strict'; //Modo Estricto
+    function checkThis() {
+        console.log(this);
+    }
+    checkThis(); */
+
+    //Lexical This
+    //????????????????
+
     
