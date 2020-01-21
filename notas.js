@@ -902,3 +902,95 @@
 
     console.log(jon);
     console.log(alexys); */
+
+    //Clases ES6
+
+    /* class Persona {
+        constructor(nombre,apellido,pais){
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.pais = pais;
+            this.nombreCompleto = `${nombre} ${apellido}`;
+        }
+
+        saludar(){
+            return `Hola, soy ${this.nombreCompleto} y vivo en ${this.pais}`;
+        }
+    }
+
+    class Profesor extends Persona {
+        constructor(nombre,apellido,pais,curso){
+            super(nombre,apellido,pais);
+            this.curso = curso;
+        }
+        invitarAlCurso(){
+            return `Hola, soy ${this.nombreCompleto} y te invito al curso ${this.curso}`
+        }
+    } */
+
+    /* const alexys = new Persona ('Alexys', 'Lozada', 'Colombia');
+    const juan = new Persona ('Alexys', 'Lozada', 'España');
+    console.log(alexys.saludar());
+    console.log(alexys);
+    console.log(juan.saludar());
+    console.log(juan); */
+
+    /* const daniel = new Profesor('Danie', 'Romero', 'Colombia', 'Php');
+    console.log(daniel);
+    console.log(daniel.invitarAlCurso()); */
+
+    ///Metodo Estatico
+    
+    class Persona {
+        constructor(nombre,apellido,pais){
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.pais = pais;
+            this.nombreCompleto = `${nombre} ${apellido}`;
+        }
+
+        saludar(){
+            return `Hola, soy ${this.nombreCompleto} y vivo en ${this.pais}`;
+        }
+
+        static describirPersona(persona){
+            return `Esta persona se llama ${persona.nombreCompleto} y es de ${persona.pais}`;
+        }
+    }
+
+    class Profesor extends Persona {
+        constructor(nombre,apellido,pais,curso){
+            super(nombre,apellido,pais);
+            this.curso = curso;
+        }
+        invitarAlCurso(){
+            return `Hola, soy ${this.nombreCompleto} y te invito al curso ${this.curso}`
+        }
+    } 
+
+    const juan = new Persona ('Alexys', 'Lozada', 'España');
+    const alexys = new Persona ('Alexys', 'Lozada', 'Colombia');
+    const daniel = new Profesor('Danie', 'Romero', 'Colombia', 'Php');
+
+    console.log(daniel.invitarAlCurso());
+    console.log(Persona.describirPersona(daniel));
+
+    Persona.prototype.propiedadEstatica = 'valor de la propiedad estatica';
+    console.log(daniel.propiedadEstatica);
+    
+    ///Ejempluso de libreria
+
+    /* class MiLibreria {
+        constructor() {
+
+        }
+        static.funcionalidadA() {
+            return 'hola a todos'
+        }
+    }
+    
+    MiLibreria.funcionalidadA() */
+
+
+
+    
