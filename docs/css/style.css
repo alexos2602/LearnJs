@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    counter-reset: miContador;
+}
+ul li{
+    padding: 10px;
+    margin-left: 5px;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+li a::before{
+    counter-increment: miContador;
+    content: counters(miContador, '.') ' - ';
+}
