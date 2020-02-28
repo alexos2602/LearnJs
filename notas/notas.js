@@ -86,7 +86,7 @@
     console.log(numero); */
 
     //operadores de comparacion (devuelven un boolean)
-    //>, <; >=; <=; ==; !=; diferente de; ===;para comparar valor y tipo de dato &&; y and; ||; o O
+    //>, <; >=; <=; ==; !=  diferente de; === para comparar valor y tipo de dato; && y and; || or;
 
     /* let condicion = 5 < 10;
 
